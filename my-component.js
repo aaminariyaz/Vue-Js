@@ -13,5 +13,7 @@ export default {
 
     template: `<div>Count is: {{ count }}</div>
                 <div>{{ hello }}</div>
-               <button @click="count++">Increase</button>`
+               <button @click="count++">Increase</button>
+                <button @click="count--">Decrease</button>
+               `
 }
